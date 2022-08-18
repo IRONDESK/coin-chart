@@ -1,10 +1,10 @@
 import type { NextPage } from "next"
-import Chart from "../components/Chart/Chart"
+import DrawChart from "../components/Chart/DrawChart"
 
 const Home: NextPage = () => {
   return (
     <>
-      <Chart />
+      <DrawChart />
     </>
   )
 }
